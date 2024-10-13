@@ -1,6 +1,6 @@
 use rust_xlsxwriter::*;
 
-pub(crate) fn write_date() -> Result<(), XlsxError> {
+pub(crate) fn write_data() -> Result<(), XlsxError> {
     let mut workbook: Workbook = Workbook::new();
 
     let bold_format: Format = Format::new().set_bold();
