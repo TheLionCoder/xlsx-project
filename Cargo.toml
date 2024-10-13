@@ -6,3 +6,5 @@ edition = "2021"
 [dependencies]
 rust_xlsxwriter = "0.79.0"
 url = "2.5.2"
+walkdir = "2.5.0"
+calamine = "0.26.1"
